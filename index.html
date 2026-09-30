@@ -5,7 +5,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
 <meta name="theme-color" content="#e50920">
-<title>LINEAR//TRACE — Função do 1º Grau</title>
+<title>FX//LUAN — Função do 1º Grau</title>
 <style>
 *{box-sizing:border-box}
 :root{
@@ -916,9 +916,9 @@ body.hit #redFlash{animation:redPulse .38s ease-out}
 
 <section id="screen-menu" class="screen active">
   <div id="brand">
-    <div class="kicker">MATHEMATICS // COMBAT SYSTEM</div>
-    <div class="title"><span>LINEAR</span><em>//TRACE</em></div>
-    <div class="sub">FUNÇÃO DO 1º GRAU · TRAIN / CALCULATE / STRIKE</div>
+    <div class="kicker">MATHYUSMATICA</div>
+    <div class="title"><span>FX</span><em>//LUAN</em></div>
+    <div class="sub">FUNÇÃO DO 1º GRAU</div>
   </div>
 
   <div class="menu-wrap">
@@ -930,8 +930,8 @@ body.hit #redFlash{animation:redPulse .38s ease-out}
     </nav>
 
     <div class="sidecopy">
-      <div class="big">TRACE THE LINE.<br><span style="color:var(--red)">BREAK THE QUESTION.</span></div>
-      <div class="small">Dois pontos. Uma equação. Um ataque. Descubra m e b antes que o cronômetro desapareça.</div>
+      <div class="big">JOGO PARA TREINAR.<br><span style="color:var(--red)">A FUNÇÃO DO PRIMEIRO GRAU.</span></div>
+      <div class="small">Atire no inimigo e descubra m e b antes que o timer acabe.</div>
     </div>
   </div>
 
@@ -957,7 +957,7 @@ body.hit #redFlash{animation:redPulse .38s ease-out}
     <div class="custom-limits"><span>00:30</span><span>10:00</span></div>
   </div>
 
-  <div id="modeDesc">O tempo é a única variável entre as dificuldades. A regra matemática permanece a mesma: encontre a função que passa pelos dois pontos e use a linha correta para atingir o alvo.</div>
+  <div id="modeDesc">O tempo é a única variável entre as dificuldades. A formula performance a mesma.</div>
 
   <div class="actionbar">
     <button class="action" data-back>BACK</button>
@@ -980,7 +980,7 @@ body.hit #redFlash{animation:redPulse .38s ease-out}
 
     <div class="howblock">
       <h3>STRIKE.</h3>
-      <p>Quando a resposta estiver correta, a reta é desenhada no plano e lançada contra o ponto inimigo. Acertos seguidos aumentam o combo. Erros não encerram a partida.</p>
+      <p>Quando a resposta estiver correta atire no inimigo, quanto mais partidas voce ganha maior o seu STRIKE.</p>
       <div class="micro">ENTER · CONFIRM ANSWER<br>ESC · BACK TO MENU</div>
     </div>
   </div>
@@ -1097,7 +1097,7 @@ body.hit #redFlash{animation:redPulse .38s ease-out}
 <div id="boot">
   <div class="boot-inner">
     <div class="boot-line"></div>
-    <div class="boot-text">LINEAR//TRACE</div>
+    <div class="boot-text">FX//LUAN</div>
     <div class="boot-sub">INITIALIZING MATH COMBAT INTERFACE · BUILD 01</div>
   </div>
 </div>
@@ -1410,7 +1410,7 @@ function nextQuestion(){
   $('#questionNo').textContent=String(state.questions).padStart(2,'0')
   $('#pointA').textContent=`(${state.question.x1}, ${state.question.y1})`
   $('#pointB').textContent=`(${state.question.x2}, ${state.question.y2})`
-  $('#question').textContent='Encontre m e b. A reta correta vai atingir o alvo.'
+  $('#question').textContent='Encontre m e b. Caso acerte o inimigo sera atingido.'
   $('#formulaSteps').innerHTML=''
   mInput.value=''
   bInput.value=''
